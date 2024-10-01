@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mudança de Background</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main>
+    <h2>Troca Cores de Anderson</h2>
+    <button class="Vermelho" onclick="Mudarcor('red')">Vermelho</button>
+    <button class="Branco"onclick="Mudarcor('white')">Branco</button>
+    <button class="Azul"onclick="Mudarcor('blue')" >Azul</button>
+    <button class="Roxo"onclick="Mudarcor('black')" >Preto</button>
+    <button class="Roxo"onclick="Mudarcor('yellow')" >Amarelo</button>
+    <button class="Roxo"onclick="CorAleatoria()" >Aleatorio</button>
+    <br>
+    <input placeholder="Nome da Cor #HEX" type="text" class="inputacolor">
+    <button onclick="InputColor()">Aplicar Cor</button>
+    <input type="color" onchange="Mudarcor(this.value)">
+    <br>
+    <label>
+      Escolher uma imagem
+      <input type="file" accept="image/*" onchange=" uploadImage(this.files[0])">
+    </label>
+
+
+
+
+  </main>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

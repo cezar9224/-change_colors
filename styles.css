@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 28px;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color: rgb(132, 107, 155);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; /* Para a imagem de fundo ficar no centro */
+    background-size: cover;  /* Para quando o usuario selecionar imagem, ela se esticar */
+
+}
+
+main {
+    border-radius: 7px;
+    background-color: rgb(126, 96, 154);
+    padding: 20px;
+    max-width: 90%;
+}
+
+button , input[type="color"] , label {
+    cursor: pointer;
+}
+
+button, input[type="text"] {
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    text-align: center;
+    padding: 2px 92px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 15px;
+}
