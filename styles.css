@@ -29,6 +29,12 @@ main {
     max-width: 90%;
 }
 
+.aplicar{
+    color:aqua ;
+}
+
+
+
 button , input[type="color"] , label {
     cursor: pointer;
 }

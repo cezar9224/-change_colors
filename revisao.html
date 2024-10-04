@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão atividade do Youtube</title>
+    <link rel="stylesheet" href="revisao.css">
+</head>
+<body>
+   
+    
+    <main>
+        <h2>Troca Cores</h2>
+        <button onclick="mudarCor('red')">Vermelho</button>
+        <button onclick="mudarCor('black')">Preto</button>
+        <button onclick="mudarCor('white')">Branco</button>
+        <button onclick="mudarAleatorio()">Aleatorio</button>
+        <br>
+        <input class="hex" type="text" placeholder="Digite uma cor hex">
+        <br>
+        <button class="aplicar" onclick="inputColor()">Aplicar Cor</button>
+        <br>
+        <input onchange="mandarcolor(this.value)" class="coloor" type="color">
+        <br>
+        <label>
+            Escolha um imagem
+            <input class="sendFile" onchange="fundFind(this.files[0])" type="file" accept="image/*">
+        </label>
+    </main>
+</body>
+<script src="revisao.js"></script>
+</html>
